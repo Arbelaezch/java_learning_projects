@@ -1,0 +1,26 @@
+Javac <filename>
+	- Tells the java compiler to read the source code in the file and translate it into Java bytecode contained within a .class file.
+		○ The filename needs to be the same as the public class name or else the compiler will throw an error.
+			§ Many classes, but only one public class, can be defined in a java file. The public class tells the compiler which class contains the 'main' method.
+
+Java <filename>
+	- The Java Virtual Machine (JVM) loads the file and executes the 'main' method defined in the class.
+
+
+Java Bytecode: A low-level, platform independent representation of the program.
+
+
+Java is Strongly Typed:
+	- This means that each variable is associated with a specific data type, which determines the kind of data that the variable can hold.
+		○ This means that Java requires each variable, function, and expression have a specific type at compile time, and any attempt to use a value of the wrong type will result in a compilation error.
+	- Other strongly typed languages: C++, C#, Pascal, and Ada.
+
+In contrast, some languages are dynamically typed:
+	- Meaning the data type of a variable is determined at runtime, rather than at compile time. In these languages you can assign a value of any type to a variable, and the language will automatically determine the appropriate type.
+		○ This can lead to runtime errors if the wrong value is used in an operation.
+	- Examples: Python, Ruby, JavaScript, and PHP.
+
+Loosely typed languages:
+	- Fall somewhere in between, allowing some flexibility in assigning values to variables, but still have some rules around data types.
+    - Examples: Perl, Bash.
+
