@@ -3,6 +3,9 @@ import java.util.Scanner;
 public class Calculator {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
+    // Scanner is the most commonly used input reader in Java.
+    // It supports a wide range of data types, including int, double, String, etc.
+
     boolean shouldExit = false;
 
     while (!shouldExit) {
@@ -50,6 +53,7 @@ public class Calculator {
       String choice = input.next().toUpperCase();
 
       if (choice.equals("N")) {
+        System.out.println("Goodbye!");
         shouldExit = true;
       }
     }
